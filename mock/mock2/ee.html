@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+     <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    
+    
+</head>
+          
+    
+  <title>Examsnotification.com</title>
+ 
+  
+<link rel="stylesheet" type="text/css" href="../../css/style4.css">
+
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+  <style>
+      
+      body {
+  margin: 0;
+p add p  padding: 0;
+}
+
+.sidebar {
+  height: 100%;
+  width: 210px;
+  position: fixed;
+  top: 0;
+  right: -250px; /* Start hidden off the screen */
+  background-color: #f1f1f1;
+  padding-top: 20px;
+  transition: right 0.3s ease-in-out; /* Add smooth sliding transition     */
+   z-index:999;
+   overflow-y: scroll;
+}
+
+.content {
+  padding: 20px;
+}
+
+.toggle-buttonr {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+/* Media Queries */
+@media (min-width: 768px) {
+  /* For computer view */
+  .sidebar {
+   
+    right: 0; /* Show sidebar by default on computer view */
+  }
+  .content {
+    margin-right: 250px;
+  }
+  .toggle-button {
+    display: none; /* Hide the toggle button on computer view */
+  }
+  
+.toggle-buttonr {
+  display: none;
+ 
+}
+   #button-holder
+{
+position: fixed;
+bottom:0%;
+left:0%;
+right:0%;
+height:auto;
+width:80%;
+vertical-align: middle;
+display: block;	
+text-align: left;
+padding-top:0.7%;
+padding-bottom:0.7%;
+max-height: 10%;
+z-index: 70;
+}
+}
+
+
+
+  </style>
+</head>
+<body>
+  
+
+ 
+    <!-- Your main content goes here -->
+    
+    <form id="regForm" action="r.html">
+ <div class="content">
+            <table>
+            
+                <tr>
+                  <td><span class="secgen currclass" id="sec-e0"><b>English</b></span></td>
+     
+      <td>
+    <b><div id="timer">Left Time: 20:00</div></b>
+    </td>
+   
+  <td>
+  <select id="languageSelect" onchange="changeLanguage()" disabled>
+ <option value="en">English</option> <option value="hi">हिन्दी</option>
+    </select>
+  </td><td>
+      
+      
+               
+    <a class="toggle-button" onclick="toggleSidebar()">   <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-layout-sidebar-left-expand" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <rect x="4" y="4" width="16" height="16" rx="2" /> <path d="M9 4v16" /> <path d="M14 10l2 2l-2 2" /> </svg></a>
+      
+  </td>
+                    </tr>
+             
+            </table>
+         
+         <b> <p>Question:  <span id="questionNumber">0</span>/30</p </p> </b>
+          <hr>
+          
+ 
+   <article class="cardq">
+
+
+ 
+             <p id="question">
+               
+                    "Direction (Set of 10): Read the following passages carefully and answer the questions given below it. Certain words are given in bold to help you locate them while answering some of the questions.<br><br> The effects of the worst economic <b>downturn</b> since the Great Depression are forcing changes on state governments and the U.S. economy that could linger for decades. By one Federal Reserve estimate, the country lost almost an entire year's worth of economic activity – nearly $14 trillion – during the recession from 2007 to 2009.The deep and <b>persistent</b> losses of the recession forced states to make broad cuts in spending and public workforces. For businesses, the recession led to changes in expansion plans and worker compensation. And for individual Americans, it has meant a future postponed, as fewer buy houses and start families. Five years after the financial crash, the country is still struggling to recover. In the aftermath of [previous] recessions there were strong recoveries. That is not true this time around, said Gary Burtless, a senior fellow at the Brookings Institution.  This is more like the pace getting out of the Great Depression. For years, housing served as the backbone of economic growth and asan investment opportunity that propelled generations of Americans into the middle class. But the financial crisis burst the housing bubble and devastated the real estate market, leaving millions facing <b>foreclosure</b>, millions more underwater, and generally stripping Americans of years' worth of accumulated wealth. Anthony B. Sanders, a professor of real estate finance at George Mason University, said even the nascent housing recovery can't escape the effects of the recession. Home values may have rebounded, he said, but the factors driving that recovery are very different than those that drove the growth in the market in the 1990s and 2000s. Sanders said more than half of recent home purchases have been made in cash, which signals investors and hedge funds are taking advantage of cheap properties. That could freeze out average buyers and also means little real economic growth underpins those sales. Those effects are clear in homeownership rates, which continue to decline. In the second quarter of this year, the U.S. homeownership rate was 65.1%, according to Census Bureau data, the lowest since 1995. In the mid-2000s, it topped 69%, capping a steady pace of growth that began after the early 1990s recession. Reversing that will be a challenge, in part because credit has tightened and lending rules have been toughened in an effort to avoid the mistakes that inflated the housing bubble in the first place.  Credit expanded, and now contracted, and its going to be tight like this as far as the eye can see,   Sanders said.   We so destroyed so many households when the bubble burst, there's just not the groundswell to fill the demand again. Some are <b>skeptical</b> that the tight credit market and new efforts to regulate the financial markets, like the Dodd- Frank law, will prove lasting. Americans have often responded with calls for regulation after financial sector- driven crises and accusations of mismanagement, according to Brookings   Burtless.          But eventually, those fires cool down,  he said.  Its not as though this memory of what can go wrong sticks with us very long.  That can be seen in the intense efforts to water down Dodd-Franks regulations, Burtless said. Federal regulators have already made moves to relax requirements for some potential homeowners whowere victims of the recent housing crisis.Even those steps and an unlikely return to easy credit might not fuel a full housing recovery without economic growth to back it up. As Sanders, referring to the growth in low-wage and part-time employment, put it:  'At those wages, it's tough to scramble together down payments and mortgages.'Turmoil in the housing market has already reshaped the makeup of households nationwide. Homeownership rates among people with children under 18 fell sharply during the recession, declining 15% between 2005 and 2011, according to Census Bureau data. In some states it was far worse. For Michigan, the decline in homeownership was 23%, and in Arizona and California it was 22%. Lackluster job growth has outlived the downturn. A study by the Economic Policy Institute showed wages for all workers, when adjusted for inflation, grew just 1.5% between 2000 and 2007. But the last five years wiped out even those modest gains—the study found wages declined for the bottom 70% of all workers since the recession began. However, some areas have seen manufacturing jobs climb back from recessionary lows, and the energy sector has been a boon for some Midwestern states. One hopeful sign for workers is the shift away from manufacturing growth in the typically low-wage South back toward the Rust Belt states, reversing a movement that was taking hold before the downturn. That trend is documented in a 2012 report from the Brookings Institution, 'Locating American Manufacturing: Trends in the Geography of Production.'  From 2000 to 2010, both the Midwest and South lost manufacturing jobs at about the national rate of 34%. But the Midwest has seen nearly half of all manufacturing jobs gained since 2010, almost double the increase in the South. For Michigan, the growth was 19%; in Indiana, 12%. Even with that growth, there are caveats. Autoworker unions have ceded ground with companies on wages and benefits, for example, allowing new hires to work for lower pay and fewer benefits than those who've held their jobs longer. Unemployment remains stubbornly high in some states, and the jobs created have leaned heavily toward part-time and low-pay work. A study from the San Francisco Federal Reserve found the proportion of U.S. jobs that are part-time is high, as many of the jobs lost during the recession have not returned. <hr>How, according to the passage, plunge in the economy devastated the life of the Americans?<br> 
+                              </p>
+    <div id="options">
+       <div class="option-wrapper"> A. <input type="radio" name="option" value="0">
+        <label>  it has led to huge loss of revenues amounting almost $14 trillion </label></div>
+        
+  
+<div class="option-wrapper">  B. <input type="radio" name="option" value="1">
+     <label> due to degrading economy there has been voluminous cuts in spending. </label></div>
+      
+     <div class="option-wrapper">  C. <input   type="radio" name="optionr" value="2">
+        <label> it has led to a wide scale increase in the number of people buying homes. </label></div>
+       
+   
+       
+          <div class="option-wrapper">  D.<input   type="radio" name="optionr" value="3">
+        <label> both (a) and (b) </label></div>
+       
+    
+    
+         <div class="option-wrapper">  E. <input   type="radio" name="optionr" value="4">
+        <label> All of the above </label></div>
+       
+    
+    
+  </article>
+     <br>
+           </div>    
+		  <div id="button-holder">
+                  <a> 
+                   <span id="clear" onclick="clearresponsek()">
+                     Clear Response
+                   </span>
+                 </a>
+				 <a> 
+                   <span id="mark" onclick="marknextPrev()">
+                     Marked & Next
+                   </span>
+                 </a>
+                 <a>  
+                   <span id="next" onclick="saveAndNext()">
+                     Save &amp; Next
+                   </span>
+                 </a>
+               </div>
+             </div>
+           </div>
+             
+              
+   
+  </div>		 </form>
+    
+    
+
+
+ <!-- this us side bar  -->
+<div class="sidebar" id="sidebar">
+             
+    <a class="toggle-buttonr" onclick="toggleSidebar()">&times;</a>
+   
+           <div id="right-container-post" style="display: block;">
+             <div id="cand-time-outer">
+                           
+              
+    
+               <div id="cand-image">
+                 <img src="../../images/photograph.png">
+               </div> 
+               
+               <div id="timer">
+                 <b style="font-size: 16px;"> Time Left: <span id="some_div"></span> </b> <br>
+				 <b style="font-size: 16px;"> Answered: <span id="quetion"></span> </b><br>
+                 <i>your name</i>
+               </div>
+               
+               </div> 
+               
+               
+               
+             <div id="right-low-half-outer">
+                
+                
+                <div id="legend">
+                 <b>Legend</b>
+                 <table>
+                   <tbody>
+                     <tr>
+                       <td><span id="stic-answered" class="icons-status stic-answered">0</span> Answered &nbsp;&nbsp;&nbsp;</td>
+                       <td><span id="stic-notanswered" class="icons-status stic-notanswered">0</span> Not Answered</td>
+                     </tr>
+                     <tr>
+                       <td><span id="stic-marked" class="icons-status stic-marked">0</span> Marked &nbsp;&nbsp;&nbsp;</td>
+                       <td><span id="stic-notvisited" class="icons-status stic-notvisited">0</span> Not Visited</td>
+                     </tr>
+                   </tbody>
+                 </table>
+               </div>
+>
+               
+               <div id="question-main-pallette">
+                 <table>
+                   <tbody>
+ <tr><td><a id="sprite-butts1" class="sprite-butts" onclick="nextbtton(0)"><br>1</a></td>
+ <td><a id="sprite-butts2" class="sprite-butts" onclick="nextbtton(1)"><br>2</a></td>
+ <td><a id="sprite-butts3" onclick="nextbtton(2)"class="sprite-butts"><br>3</a></td>
+ <td><a id="sprite-butts4" class="sprite-butts" onclick="nextbtton(3)"><br>4</a></td></tr> <tr></tr>
+ <tr><td><a id="sprite-butts5" class="sprite-butts" onclick="nextbtton(4)"><br>5</a></td>
+ <td><a id="sprite-butts6" class="sprite-butts" onclick="nextbtton(5)"><br>6</a></td>
+<td><a id="sprite-butts7" class="sprite-butts" onclick="nextbtton(6)"><br>7</a></td>
+<td><a id="sprite-butts8" class="sprite-butts" onclick="nextbtton(7)"><br>8</a></td></tr><tr></tr>
+<tr><td><a id="sprite-butts9" class="sprite-butts" onclick="nextbtton(8)"><br>9</a></td>
+ <td><a id="sprite-butts10" class="sprite-butts" onclick="nextbtton(9)"><br>10</a></td>
+<td><a id="sprite-butts11" class="sprite-butts" onclick="nextbtton(10)"><br>11</a></td>
+<td><a id="sprite-butts12" class="sprite-butts" onclick="nextbtton(11)"><br>12</a></td></tr> <tr></tr>
+<tr><td><a id="sprite-butts13" class="sprite-butts" onclick="nextbtton(12)"><br>13</a></td>
+<td><a id="sprite-butts14" class="sprite-butts" onclick="nextbtton(13)"><br>14</a></td>
+<td><a id="sprite-butts15" class="sprite-butts" onclick="nextbtton(14)"><br>15</a></td>
+<td><a id="sprite-butts16" class="sprite-butts" onclick="nextbtton(15)"><br>16</a></td></tr>
+<tr></tr>
+<tr><td><a id="sprite-butts17" class="sprite-butts" onclick="nextbtton(16)"><br>17</a></td>
+<td><a id="sprite-butts18" class="sprite-butts" onclick="nextbtton(17)"><br>18</a></td>
+<td><a id="sprite-butts19" class="sprite-butts" onclick="nextbtton(18)"><br>19</a></td>
+<td><a id="sprite-butts20" class="sprite-butts" onclick="nextbtton(19)"><br>20</a></td></tr><tr></tr>
+<tr><td><a id="sprite-butts21"  class="sprite-butts" onclick="nextbtton(20)"><br>21</a></td
+><td><a id="sprite-butts22" class="sprite-butts" onclick="nextbtton(21)"><br>22</a></td>
+<td><a id="sprite-butts23" class="sprite-butts" onclick="nextbtton(22)"><br>23</a></td>
+<td><a id="sprite-butts24" class="sprite-butts" onclick="nextbtton(23)"><br>24</a></td></tr><tr></tr>
+<tr><td><a id="sprite-butts25" class="sprite-butts" onclick="nextbtton(24)"><br>25</a></td>
+<td><a id="sprite-butts26" class="sprite-butts" onclick="nextbtton(25)"><br>26</a></td>
+<td><a id="sprite-butts27" class="sprite-butts" onclick="nextbtton(26)"><br>27</a></td>
+<td><a id="sprite-butts28" class="sprite-butts" onclick="nextbtton(27)" ><br>28</a></td></tr><tr></tr>
+<tr><td><a id="sprite-butts29" class="sprite-butts" onclick="nextbtton(28)"><br>29</a></td>
+<td><a id="sprite-butts30" onclick="nextbtton(29)" class="sprite-butts"><br>30</a></td>
+
+</tr><tr></tr>
+
+</tbody></table>
+               </div>
+               
+               <div id="button-bottom">
+                   <hr>
+                   <br>
+                <table cellpadding="2" cellspacing="10">
+                  <tbody>
+                     
+                    <tr>
+                      <td>
+                       
+                          <div id="b3" style="background-color: rgb(199, 220, 240); color: rgb(0, 0, 0);">
+                              ..
+                          </div>
+                         
+                      </td>
+                      <td>
+                          
+                        <a onclick="doSomething()">
+                          <div id="b4">
+                                           Next Section
+                           </div>
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+    
+    </div>
+    </div>
+    
+  </div>
+
+
+
+ 
+ <script src="../../js/sidebar.js"></script>
+    <script src="equebuttonpall.js"></script>
+ 
+ <script src="main.js"></script>
+    <script src="../../js/timer.js"></script>
+</body>
+</html>
